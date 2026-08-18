@@ -1,3 +1,9 @@
+samuel david ortiz 
+https://dsaw-2026-2.github.io/hw-03-css-fundamentals-samueldavidortizpico-hash/
+
+hw03
+
+
 # HW03 — CSS Fundamentals
 
 **Week 3 · DSAW · Universidad de La Sabana**
