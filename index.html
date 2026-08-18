@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CineHub</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <a class="logo" href="index.html">CineHub</a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <ul class="nav-list">
+        <li><a href="#populares">Películas</a></li>
+        <li><a href="#registro">Mis planes</a></li>
+        <li><a href="#buscar">Buscar</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section id="buscar" class="hero">
+
+      <h1>
+        Deja de perder tus planes de cine en el chat grupal
+      </h1>
+
+      <p>
+        Encuentra una película, elige un horario y crea un plan
+        que tus amigos puedan confirmar con un solo clic.
+      </p>
+
+      <form action="#" method="get" class="search-form">
+
+        <label for="search">
+          Buscar películas
+        </label>
+
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="Ej: Spider-Man"
+        >
+
+        <button type="submit" class="btn">
+          Buscar
+        </button>
+
+      </form>
+
+    </section>
+
+
+    <!-- PELÍCULAS -->
+
+    <section id="populares">
+
+      <h2>Películas populares</h2>
+
+      <div class="movie-grid">
+
+        <article class="movie-card">
+<img 
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRBNPetHukrorY8xN9XZtnwS7oR5mv0xOYiMCTlrv5UA&s=10" 
+  alt="Póster de la película Spider-Man" 
+>
+
+          <h3>Spider-Man</h3>
+
+          <p>⭐ 8.2 · Acción</p>
+
+        </article>
+
+
+        <article class="movie-card">
+<img 
+  src="https://www.universalpictures.es/tl_files/content/movies/odyssey/posters/02.jpg" 
+  alt="Póster de la película L'Odyssée" 
+>
+          <h3>L'Odyssée</h3>
+
+          <p>⭐ 8.0 · Aventura</p>
+
+        </article>
+
+
+        <article class="movie-card">
+
+          <img 
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7wXM-YpkcwSp9geWDIj3qtdqMU0WVnHIyk35ZITqeXQ&s=10" 
+  alt="Póster de la película Michael" 
+>
+
+          <h3>Michael</h3>
+
+          <p>⭐ 8.1 · Drama</p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- REGISTRO -->
+
+    <section id="registro" class="signup">
+
+      <h2>Crea tu cuenta</h2>
+
+      <p>
+        Regístrate para crear planes de cine y compartirlos
+        con tus amigos.
+      </p>
+
+      <form action="#" method="post" class="signup-form">
+
+        <div class="field">
+
+          <label for="name">
+            Nombre
+          </label>
+
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+          >
+
+        </div>
+
+
+        <div class="field">
+
+          <label for="email">
+            Correo electrónico
+          </label>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+          >
+
+        </div>
+
+
+        <div class="field">
+
+          <label for="password">
+            Contraseña
+          </label>
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          >
+
+        </div>
+
+
+        <button type="submit" class="btn">
+          Registrarme
+        </button>
+
+      </form>
+
+    </section>
+
+
+    <!-- FAQ -->
+
+    <section id="faq" class="faq">
+
+      <h2>Preguntas frecuentes</h2>
+
+
+      <article class="faq-item">
+
+        <a
+          href="#respuesta-1"
+          class="faq-question"
+        >
+          ¿Necesito crear una cuenta?
+        </a>
+
+        <p
+          id="respuesta-1"
+          class="faq-answer"
+        >
+          No. Puedes consultar las películas y organizar
+          un plan con tus amigos.
+        </p>
+
+      </article>
+
+
+      <article class="faq-item">
+
+        <a
+          href="#respuesta-2"
+          class="faq-question"
+        >
+          ¿Puedo compartir un plan con mis amigos?
+        </a>
+
+        <p
+          id="respuesta-2"
+          class="faq-answer"
+        >
+          Sí. Puedes compartir los detalles de una salida
+          para que tus amigos conozcan la película, el cine
+          y el horario.
+        </p>
+
+      </article>
+
+
+      <article class="faq-item">
+
+        <a
+          href="#respuesta-3"
+          class="faq-question"
+        >
+          ¿Puedo elegir el horario?
+        </a>
+
+        <p
+          id="respuesta-3"
+          class="faq-answer"
+        >
+          Sí. CineHub permite seleccionar una función para
+          construir el plan de la salida.
+        </p>
+
+      </article>
+
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+
+    <p>
+      CineHub · Universidad de La Sabana
+    </p>
+
+  </footer>
+
+</body>
+</html>

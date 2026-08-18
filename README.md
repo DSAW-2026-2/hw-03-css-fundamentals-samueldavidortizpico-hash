@@ -1,3 +1,9 @@
+samuel david ortiz 
+https://dsaw-2026-2.github.io/hw-03-css-fundamentals-samueldavidortizpico-hash/
+
+hw03
+
+
 # HW03 — CSS Fundamentals
 
 **Week 3 · DSAW · Universidad de La Sabana**
@@ -50,9 +56,11 @@ GitHub Pages — no build step.
 ## Autograding
 
 The pipeline will check:
-- ✅ `index.html`, `styles.css`, `REFLECTION.md` are present
-- ✅ HTMLHint + Stylelint pass with no errors
-- ✅ GitHub Pages responds with HTTP 200
-- ✅ Responsive, Flexbox/Grid, no inline styles, quality reflection (reviewed by Claude)
+-`index.html`, `styles.css`, `REFLECTION.md` are present
+- HTMLHint + Stylelint pass with no errors
+-  GitHub Pages responds with HTTP 200
+-  Responsive, Flexbox/Grid, no inline styles, quality reflection (reviewed by Claude)
 
-> **Submission rule:** If it is not deployed and public, it cannot be graded.
+## Bitácora de IA hw04
+
+Utilizamos IA para elegir una paleta de colores para CineHub. Se propusieron tonos rosa (`pink`) para botones y elementos principales, y tonos gris (`gray`) para fondos y textos. Mantuvimos el rosa porque conserva la identidad visual de CineHub y adaptamos los grises para mejorar la legibilidad en modo claro y oscuro.
